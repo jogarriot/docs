@@ -1,86 +1,57 @@
 ---
-title: 'Quickstart'
-description: 'Start building awesome documentation in under 5 minutes'
+title: 'Builder Quickstart'
+description: 'Get started with the Companion Builder'
 ---
 
-## Setup your development
+#### Builder Quickstart
 
-Learn how to update your docs locally and deploy them to the public.
+The Companion Builder is a powerful tool designed to help you create, customize, and deploy AI companions for various communication channels.
 
-### Edit and preview
+After creating a blank Companion or creating it from the template, you will see our general page for setting up the Companion.
 
-<AccordionGroup>
-  <Accordion icon="github" title="Clone your docs locally">
-    During the onboarding process, we created a repository on your Github with
-    your docs content. You can find this repository on our
-    [dashboard](https://dashboard.mintlify.com). To clone the repository
-    locally, follow these
-    [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-    in your terminal.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="Preview changes">
-    Previewing helps you make sure your changes look as intended. We built a
-    command line interface to render these changes locally. 1. Install the
-    [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
-    documentation changes locally with this command: ``` npm i -g mintlify ```
-    2. Run the following command at the root of your documentation (where
-    `mint.json` is): ``` mintlify dev ```
-  </Accordion>
-</AccordionGroup>
+On the Top navigation you can see name of Companion that can be changed, Companion id, delete button, sharable demo link button and Save button.
 
-### Deploy your changes
+The top navigation displays:
 
-<AccordionGroup>
+- Companion name (editable)
+- Companion ID
+- Delete button
+- Sharable demo link button
+- Save button
 
-<Accordion icon="message-bot" title="Install our Github app">
-  Our Github app automatically deploys your changes to your docs site, so you
-  don't need to manage deployments yourself. You can find the link to install on
-  your [dashboard](https://dashboard.mintlify.com). Once the bot has been
-  successfully installed, there should be a check mark next to the commit hash
-  of the repo.
-</Accordion>
-<Accordion icon="rocket" title="Push your changes">
-  [Commit and push your changes to
-  Git](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push)
-  for your changes to update in your docs site. If you push and don't see that
-  the Github app successfully deployed your changes, you can also manually
-  update your docs through our [dashboard](https://dashboard.mintlify.com).
-</Accordion>
+The sidebar allows you to switch between different tabs:
 
-</AccordionGroup>
+- 3 tabs for different modes
+- A customization tab for adjusting the companion's appearance in the widget or iframe
 
-## Update your docs
+In the middle part of the screen, a list of settings that can be applied to a chosen mode or customization
 
-Add content directly in your files with MDX syntax and React components. You can use any of our components, or even build your own.
+### 
 
-<CardGroup>
+![Sidebar](https://mintlify.s3-us-west-1.amazonaws.com/careerkarma/v1/documentation/builder_files/Sidebar.jpg)
 
-<Card title="Style Your Docs" icon="paintbrush" href="/settings/global">
-  Add flair to your docs with personalized branding.
-</Card>
+### Chat modes settings
 
-<Card
-  title="Add API Endpoints"
-  icon="square-code"
-  href="/api-playground/configuration"
->
-  Implement your OpenAPI spec and enable API user interaction.
-</Card>
+For different Modes setting are slightly different but they have some similar inputs like Greeting message, Prompt, Companion Resources, Provider and Model. You can specify different values for each of the mode and it will affect only this mode of the Companion.
 
-<Card
-  title="Integrate Analytics"
-  icon="chart-mixed"
-  href="/analytics/supported-integrations"
->
-  Draw insights from user interactions with your documentation.
-</Card>
+On the right sidebar we have our in-builder testing widgets. Basically right after making changes and saving settings you can check how Companion speaks and behave. For voice mode it's gonna be a web call or phone call (number will be your profile number). For SMS you can start text chat or get an SMS and continue speaking with bot via SMS. For Text mode it can be a web chat.
 
-<Card
-  title="Host on a Custom Domain"
-  icon="browser"
-  href="/settings/custom-domain/subdomain"
->
-  Keep your docs on your own website's subdomain.
-</Card>
+![Voice](https://mintlify.s3-us-west-1.amazonaws.com/careerkarma/v1/documentation/builder_files/Voice.jpg)
 
-</CardGroup>
+![SMS](https://mintlify.s3-us-west-1.amazonaws.com/careerkarma/v1/documentation/builder_files/SMS.jpg)
+
+![Chat](https://mintlify.s3-us-west-1.amazonaws.com/careerkarma/v1/documentation/builder_files/Chat.jpg)
+
+### Customization settings
+
+Customization tab is very different from the others. Settings on customization part responsible for Companion appearance inside of sharable demo link or widget.
+
+You can set your company logo so it will appears on sharable page. Set displayed name of you Companion, change fonts, colors and some button labels.
+
+You can also specify some Bubble adjustments, it's an element that appears on your web page if you want to use our widget. By clicking on bubble on your website - window with our Companion will appear.
+
+![Customize bubble](https://mintlify.s3-us-west-1.amazonaws.com/careerkarma/v1/documentation/builder_files/Customize_bubble.jpg)
+
+[IntroductionIntegration](https://docs.outrival.com/v1/introduction)
+
+[Powered by Mintlify](https://mintlify.com/preview-request?utm_campaign=poweredBy&utm_medium=docs&utm_source=docs.outrival.com)
